@@ -89,16 +89,26 @@ img{
     border-radius: 12px;
     border: 2px solid rgb(255, 255, 255);
 }
-@media (max-width: 600px) {
+@media (max-width: 630px) {
     .img {
-        height: 400px;
-        width: 600px;
-
+        width: 100%;
+        height: auto;
     }
+   .review{
+    font-size: 10px;
+   }
+   .header h1{
+    font-size: 30px;
+    .main{
+        font-size: 10px;
+    }
+   
 }
+
 .navbar li:hover{
     color: rgba(255, 255, 255, 0.279);
     background-color: #ffffff43;
     border-radius: 4px;
 
+    }
 }
